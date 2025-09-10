@@ -1,0 +1,16 @@
+{
+  "name": "cypressautomationseptember2025",
+  "version": "1.0.0",
+  "description": "Cypress End to End Test which include UI and API flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "npx cypress open"
+  },
+  "author": "ishatesting",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.1.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
