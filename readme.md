@@ -11,6 +11,9 @@ Understanding Github and Git
 ----------------------------
 
 Create your account - https://github.com/
-
 Install Git - https://git-scm.com/
 
+Setup your username - https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com

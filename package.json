@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "npx cypress open"
+    "cypress:open": "npx cypress open",
+    "cypress:run:electron:headless": "npx cypress run --spec cypress/e2e/CypressUIAutomation/visitCypress.cy.js",
+    "cypress:run:chrome:headless": "npx cypress run --browser chrome --spec cypress/e2e/CypressUIAutomation/visitCypress.cy.js"
   },
   "author": "ishatesting",
   "license": "ISC",
