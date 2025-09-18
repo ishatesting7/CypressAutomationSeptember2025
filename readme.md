@@ -17,3 +17,28 @@ Setup your username - https://confluence.atlassian.com/bitbucketserver/basic-git
 
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
+
+
+Locator
+-------
+
+//Cypress - CSS Selector
+
+// //With help of classname
+// --> CSS Selector - .classname
+// //With the help of id
+// --> ID - #id
+// //With the help of attribute name and value
+// --> [attributename='attributevalue']
+// //With the help of tagname and classname
+// --> tagname.classname
+// //With the help of tagname and id
+// --> tagname#id
+// //With the help of tagname and attribute name and value
+// --> tagname[attributename='attributevalue']
+// //With the help of tagname, attribute name and value and classname
+// --> tagname[attributename='attributevalue'].classname
+// //With the help of tagname, attribute name and value and id
+// --> tagname[attributename='attributevalue']#id
+
+
