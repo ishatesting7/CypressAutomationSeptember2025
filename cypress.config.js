@@ -2,10 +2,11 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
+    watchForFileChanges:true,
+    pageLoadTimeout:40000,
     setupNodeEvents(on, config) {
-      this.viewportHeight = 660;
-      this.viewportWidth = 1000;
-      this.watchForFileChanges = false;
+      viewportHeight = 660;
+      viewportWidth = 1000;
       // implement node event listeners here
     },
   },
