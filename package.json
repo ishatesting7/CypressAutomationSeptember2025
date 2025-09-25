@@ -6,16 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "npx cypress open",
-    "cypress:runSingleTest":"npx cypress run --spec cypress/e2e/CypressUIAutomation/TC06RadioButton.cy.js --headless",
-    
+    "cypress:runSingleTest": "npx cypress run --spec cypress/e2e/CypressUIAutomation/TC06RadioButton.cy.js --headless",
     "cypress:run:electron:headless": "npx cypress run --spec cypress/e2e/CypressUIAutomation/visitCypress.cy.js",
     "cypress:run:chrome:headless": "npx cypress run --browser chrome --spec cypress/e2e/CypressUIAutomation/visitCypress.cy.js"
   },
   "author": "ishatesting",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/grep": "^5.0.0",
     "cypress": "^15.1.0",
     "cypress-xpath": "^2.0.1"
   }
-  
 }

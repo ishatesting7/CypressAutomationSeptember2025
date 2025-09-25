@@ -24,3 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 /// <reference types="cypress" />
+
+Cypress.Commands.add('checkTitle',(title)=>{
+    cy.visit('https://www.cypress.io/');
+    cy.title().should('eq','JavaScript End to End Testing Framework | cypress.io')
+    
+})
