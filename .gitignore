@@ -1,5 +1,4 @@
-./node_modules
-.DS_Store
-/videos
-/screenshots
-/reports
+/node_modules
+/cypress/videos
+/cypress/screenshots
+/cypress/reports
