@@ -10,6 +10,14 @@ module.exports = defineConfig({
       viewportWidth = 1000;
       // implement node event listeners here
     },
+    env: {
+      urlqa: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      email: "admin",
+      password: "admin123",
+      urlqaapi: "https://reqres.in/api/users?page=2",
+      urlstage: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      urlprod: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    },
     
   },
 });
