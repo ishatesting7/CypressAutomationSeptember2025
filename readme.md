@@ -139,3 +139,30 @@ Cypress CLI
   "cypress:ci": "npx cypress run --headless --browser chrome --record"
 }
 ```
+
+
+
+Page Object Model -
+
+HomePage.js
+  - Page Elements --> Locators
+  - Page Action --> Action on that particular webpage
+Account.js
+  - Page Elements --> Locators
+  - Page Action --> Action on that particular webpage
+ForgettenPassowrd.js
+  - Page Elements --> Locators
+  - Page Action --> Action on that particular webpage
+
+Page - Count - Based on the application - 15 Pages
+
+LoginPage
+HomePage
+AboutPage
+FooterPage
+
+All the page will have extension as .JS
+PageElement
+PageAction
+
+
