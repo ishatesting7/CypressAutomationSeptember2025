@@ -1,0 +1,36 @@
+{
+  "forgotLoginTests": [
+    {
+      "testName": "Forgot Login - Valid Customer Details",
+      "data": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "address": "123 Main Street",
+        "city": "Springfield",
+        "state": "Illinois",
+        "zipCode": "62704",
+        "ssn": "123-45-6789"
+      },
+      "expectedResult": {
+        "status": "success",
+        "message": "Customer login information retrieved successfully"
+      }
+    },
+    {
+      "testName": "Forgot Login - Invalid Customer Details",
+      "data": {
+        "firstName": "Michael",
+        "lastName": "Smith",
+        "address": "999 Unknown Road",
+        "city": "Nowhere",
+        "state": "Nevada",
+        "zipCode": "99999",
+        "ssn": "000-00-0000"
+      },
+      "expectedResult": {
+        "status": "failure",
+        "message": "The customer information provided could not be found."
+      }
+    }
+  ]
+}
