@@ -1,5 +1,7 @@
 const { defineConfig } = require("cypress");
-
+const xlsx = require('xlsx');
+const fs = require('fs');
+const path = require('path');
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
@@ -17,9 +19,15 @@ module.exports = defineConfig({
     pageLoadTimeout:40000,
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
-
-      viewportHeight = 660;
-      viewportWidth = 1000;
+       on('task', {
+        readXlsx({ file }) {
+          const workbook = xlsx.readFile(file);
+          const sheetName = workbook.SheetNames[0];
+          const data = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);
+          return data;
+        }
+      });
+      return config;
       // implement node event listeners here
     },
     env: {

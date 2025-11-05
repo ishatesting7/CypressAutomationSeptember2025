@@ -1,0 +1,102 @@
+[
+  {
+    "firstName": "Aarav",
+    "lastName": "Sharma",
+    "email": "aarav.sharma01@example.com",
+    "telephone": "9876543210",
+    "password": "Aarav@123",
+    "confirmPassword": "Aarav@123",
+    "newsletter": "Yes",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Diya",
+    "lastName": "Patel",
+    "email": "diya.patel02@example.com",
+    "telephone": "9876509876",
+    "password": "Diya@2025",
+    "confirmPassword": "Diya@2025",
+    "newsletter": "No",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Kabir",
+    "lastName": "Khan",
+    "email": "kabir.khan03@example.com",
+    "telephone": "9812312345",
+    "password": "Kabir#321",
+    "confirmPassword": "Kabir#321",
+    "newsletter": "Yes",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Ananya",
+    "lastName": "Nair",
+    "email": "ananya.nair04@example.com",
+    "telephone": "9823456789",
+    "password": "Ananya@456",
+    "confirmPassword": "Ananya@456",
+    "newsletter": "No",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Mehta",
+    "email": "rohan.mehta05@example.com",
+    "telephone": "9898989898",
+    "password": "Rohan#789",
+    "confirmPassword": "Rohan#789",
+    "newsletter": "Yes",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Sanya",
+    "lastName": "Iyer",
+    "email": "sanya.iyer06@example.com",
+    "telephone": "9776655443",
+    "password": "Sanya@001",
+    "confirmPassword": "Sanya@001",
+    "newsletter": "No",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Arjun",
+    "lastName": "Verma",
+    "email": "arjun.verma07@example.com",
+    "telephone": "9800112233",
+    "password": "Arjun@321",
+    "confirmPassword": "Arjun@321",
+    "newsletter": "Yes",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Meera",
+    "lastName": "Reddy",
+    "email": "meera.reddy08@example.com",
+    "telephone": "9811122233",
+    "password": "Meera@987",
+    "confirmPassword": "Meera@987",
+    "newsletter": "No",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Vikram",
+    "lastName": "Gupta",
+    "email": "vikram.gupta09@example.com",
+    "telephone": "9900112233",
+    "password": "Vikram#2025",
+    "confirmPassword": "Vikram#2025",
+    "newsletter": "Yes",
+    "privacyPolicy": true
+  },
+  {
+    "firstName": "Tanya",
+    "lastName": "Singh",
+    "email": "tanya.singh10@example.com",
+    "telephone": "9877700001",
+    "password": "Tanya@999",
+    "confirmPassword": "Tanya@999",
+    "newsletter": "No",
+    "privacyPolicy": true
+  }
+]

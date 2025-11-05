@@ -47,6 +47,8 @@
     "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
-    "cypress-file-upload": "^4.0.6"
+    "cypress-file-upload": "^4.0.6",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
   }
 }
