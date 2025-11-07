@@ -39,3 +39,4 @@ import 'cypress-file-upload';
 import 'cypress-mochawesome-reporter/register';
 
 require('@4tw/cypress-drag-drop')
+import 'cypress-iframe';

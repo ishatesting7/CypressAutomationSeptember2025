@@ -1,0 +1,42 @@
+{
+    "validBooking": {
+      "firstname": "Leatha",
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+      },
+      "additionalneeds": "https://avatars.githubusercontent.com/u/27959734"
+    },
+    "missingFirstname": {
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    "invalidTotalPrice": {
+      "firstname": "Leatha",
+      "lastname": "Brown",
+      "totalprice": "invalid",
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+      },
+      "additionalneeds": "Dinner"
+    },
+    "missingCheckinCheckout":{
+        "firstname": "Leatha",
+        "lastname": "Brown",
+        "totalprice": "invalid",
+        "depositpaid": true,
+        "additionalneeds": "Dinner"
+      }
+  }
+  
