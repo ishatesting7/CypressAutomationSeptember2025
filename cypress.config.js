@@ -3,6 +3,7 @@ const xlsx = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 module.exports = defineConfig({
+  projectId: "ett8e1",
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     charts: true,
