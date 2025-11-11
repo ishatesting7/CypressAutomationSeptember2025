@@ -45,7 +45,8 @@
     "cypress": "^15.1.0",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.8.4",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "mysql2": "^3.15.3"
   },
   "dependencies": {
     "cypress-file-upload": "^4.0.6",

@@ -1,7 +1,26 @@
 const { defineConfig } = require("cypress");
+const mysql = require('mysql2');
 const xlsx = require('xlsx');
 const fs = require('fs');
 const path = require('path');
+
+function queryTestDb(query, config) {
+  // Create connection
+  const connection = mysql.createConnection({
+    host: 'localhost',     // your DB host
+    user: 'root',          // your DB user
+    password: 'password',  // your DB password
+    database: 'testdb'     // your database name
+  });
+  return new Promise((resolve, reject) => {
+    connection.query(query, (error, results) => {
+      if (error) reject(error);
+      else resolve(results);
+      connection.end();
+    });
+  });
+}
+
 module.exports = defineConfig({
   projectId: "ett8e1",
   reporter: 'cypress-mochawesome-reporter',
@@ -26,7 +45,10 @@ module.exports = defineConfig({
           const sheetName = workbook.SheetNames[0];
           const data = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);
           return data;
-        }
+        },
+        queryDb: (query) => {
+          return queryTestDb(query, config);
+        },
       });
       return config;
       // implement node event listeners here
